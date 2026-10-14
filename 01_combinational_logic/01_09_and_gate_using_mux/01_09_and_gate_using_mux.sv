@@ -29,4 +29,12 @@ module and_gate_using_mux
   // constants 0 and 1, and wire connections
 
 
+  mux and_mux (
+    .d0(1'b0), 
+    .d1(b),
+    .sel(a),
+    .y(o)
+  );
+
+
 endmodule
